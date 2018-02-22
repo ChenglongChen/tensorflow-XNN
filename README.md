@@ -16,10 +16,9 @@ Since I have been working on CTR & KBQA based on deeplearning and embedding mode
 ## Summary
 This repo describes our method for the above competition. Highlights of our method are as follows:
 
-* very minimum preprocessing with focus on end-to-end learning with multi-field inputs (e.g., text, categorical features, numerical features.)
-* purely bag of NNs of the same architecture
-* hybrid NN consists of four major compoments, i.e., embed, encode, attend and predict
-* snapshot ensemble is utilized to produce the final submission
+* very minimum preprocessing with focus on end-to-end learning with multi-field inputs (e.g., text, categorical features, numerical features);
+* hybrid NN consists of four major compoments, i.e., embed, encode, attend and predict. FastText and NN based FM are used as building block;
+* purely bagging of NNs of the same architecture via snapshot ensemble;
 * efficiency is achieved via various approaches, e.g., lazynadam optimization, fasttext encoding and average pooling, snapshot ensemble, etc.
 
 ## Preprocessing
@@ -77,4 +76,4 @@ In the final solution, we use cyclic lr schedule and snapshot ensemble to produc
 [1] [Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models](https://explosion.ai/blog/deep-learning-formula-nlp)
 
 ## Note
-Not finalized.
+Not finalized @ 2018.02.23.
