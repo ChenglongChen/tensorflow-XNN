@@ -104,7 +104,7 @@ venv.bak/
 
 #
 __pycache__/
-code/*
+code/.idea/*
 bak/*
 input/*
 sub/*
