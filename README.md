@@ -21,6 +21,8 @@ This repo describes our method for the above competition. Highlights of our meth
 * purely bagging of NNs of the same architecture via snapshot ensemble;
 * efficiency is achieved via various approaches, e.g., lazynadam optimization, fasttext encoding and average pooling, snapshot ensemble, etc.
 
+Please find the slide of our solution [here](./doc/Mercari_Price_Suggesion_Competition_ChenglongChen_4th_Place.pdf).
+
 ## Preprocessing
 
 ## Multi-field Inputs
